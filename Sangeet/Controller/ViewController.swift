@@ -35,10 +35,10 @@ class ViewController: UIViewController {
     @objc func playButtonTapped(sender: AnyObject) {
         if player.rate == 0 {
             player.play()
-            playButton.setImage(UIImage(named: "pause-button-outline_318-40569"), for: .normal)
+            playButton.setImage(UIImage(named: "noun_860208_cc"), for: .normal)
         } else {
             player.pause()
-            playButton.setImage(UIImage(named: "play-button_318-42541"), for: .normal)
+            playButton.setImage(UIImage(named: "noun_860179_cc"), for: .normal)
         }
     }
     

@@ -10,6 +10,11 @@ import UIKit
 
 class PlaylistCell: UITableViewCell {
 
+    @IBOutlet weak var playlistThumbImage: UIImageView!
+    @IBOutlet weak var songTitle: UILabel!
+    @IBOutlet weak var songAlbum: UILabel!
+    
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
