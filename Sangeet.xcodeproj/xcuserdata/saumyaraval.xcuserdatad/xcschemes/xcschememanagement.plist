@@ -7,7 +7,25 @@
 		<key>Sangeet.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>5</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>B81A7FFF1F0EAD7B00039334</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B81A80131F0EAD8000039334</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B81A801E1F0EAD8000039334</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

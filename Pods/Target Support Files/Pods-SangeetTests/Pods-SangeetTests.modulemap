@@ -1,0 +1,6 @@
+framework module Pods_SangeetTests {
+  umbrella header "Pods-SangeetTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

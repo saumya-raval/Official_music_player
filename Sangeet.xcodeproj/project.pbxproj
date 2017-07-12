@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F9030D79E51B954C30DE0D4 /* Pods_Sangeet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9E21ED8AE7E43FB67FB4763 /* Pods_Sangeet.framework */; };
+		631C8F7B631D71F3B1744517 /* Pods_SangeetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90553660C9CFE29E8DE9EE7E /* Pods_SangeetTests.framework */; };
+		B3F063B81070A6927741BF2C /* Pods_SangeetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE8093EB377A7D6550A38A28 /* Pods_SangeetUITests.framework */; };
 		B81A80041F0EAD7D00039334 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81A80031F0EAD7D00039334 /* AppDelegate.swift */; };
 		B81A80061F0EAD7D00039334 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81A80051F0EAD7D00039334 /* ViewController.swift */; };
 		B81A80091F0EAD7D00039334 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B81A80071F0EAD7D00039334 /* Main.storyboard */; };
@@ -14,6 +17,9 @@
 		B81A800E1F0EAD7D00039334 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B81A800C1F0EAD7D00039334 /* LaunchScreen.storyboard */; };
 		B81A80191F0EAD8000039334 /* SangeetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81A80181F0EAD8000039334 /* SangeetTests.swift */; };
 		B81A80241F0EAD8000039334 /* SangeetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81A80231F0EAD8000039334 /* SangeetUITests.swift */; };
+		B8C6A1A21F1025BB0035C036 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B8C6A1A11F1025BB0035C036 /* GoogleService-Info.plist */; };
+		B8C6A1A61F102FC20035C036 /* playlistVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C6A1A51F102FC20035C036 /* playlistVC.swift */; };
+		B8C6A1AB1F1032630035C036 /* PlaylistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C6A1AA1F1032630035C036 /* PlaylistCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3120EDE4D1D627F74A98060F /* Pods-SangeetTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SangeetTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SangeetTests/Pods-SangeetTests.release.xcconfig"; sourceTree = "<group>"; };
+		31EB94464F73EC4B24E7B458 /* Pods-Sangeet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sangeet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sangeet/Pods-Sangeet.debug.xcconfig"; sourceTree = "<group>"; };
+		4581A6E1926A21814B799796 /* Pods-SangeetUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SangeetUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SangeetUITests/Pods-SangeetUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		83E3C922F4BFA72D77F22E4F /* Pods-SangeetUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SangeetUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SangeetUITests/Pods-SangeetUITests.release.xcconfig"; sourceTree = "<group>"; };
+		90553660C9CFE29E8DE9EE7E /* Pods_SangeetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SangeetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A502C1ACDEC7FF4D8A43C30 /* Pods-SangeetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SangeetTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SangeetTests/Pods-SangeetTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A9E21ED8AE7E43FB67FB4763 /* Pods_Sangeet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sangeet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B81A80001F0EAD7C00039334 /* Sangeet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sangeet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B81A80031F0EAD7D00039334 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B81A80051F0EAD7D00039334 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,11 @@
 		B81A801F1F0EAD8000039334 /* SangeetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SangeetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B81A80231F0EAD8000039334 /* SangeetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SangeetUITests.swift; sourceTree = "<group>"; };
 		B81A80251F0EAD8000039334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8C6A1A11F1025BB0035C036 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Volumes/VMware Shared Folders/New folder/Music/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B8C6A1A51F102FC20035C036 /* playlistVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playlistVC.swift; sourceTree = "<group>"; };
+		B8C6A1AA1F1032630035C036 /* PlaylistCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistCell.swift; sourceTree = "<group>"; };
+		BE8093EB377A7D6550A38A28 /* Pods_SangeetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SangeetUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C802CCEC5DDA8130DF367676 /* Pods-Sangeet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sangeet.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sangeet/Pods-Sangeet.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F9030D79E51B954C30DE0D4 /* Pods_Sangeet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				631C8F7B631D71F3B1744517 /* Pods_SangeetTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +88,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3F063B81070A6927741BF2C /* Pods_SangeetUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		476A95FFD25D3FDC9C27106E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31EB94464F73EC4B24E7B458 /* Pods-Sangeet.debug.xcconfig */,
+				C802CCEC5DDA8130DF367676 /* Pods-Sangeet.release.xcconfig */,
+				9A502C1ACDEC7FF4D8A43C30 /* Pods-SangeetTests.debug.xcconfig */,
+				3120EDE4D1D627F74A98060F /* Pods-SangeetTests.release.xcconfig */,
+				4581A6E1926A21814B799796 /* Pods-SangeetUITests.debug.xcconfig */,
+				83E3C922F4BFA72D77F22E4F /* Pods-SangeetUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B81A7FF71F0EAD7B00039334 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +115,8 @@
 				B81A80171F0EAD8000039334 /* SangeetTests */,
 				B81A80221F0EAD8000039334 /* SangeetUITests */,
 				B81A80011F0EAD7C00039334 /* Products */,
+				476A95FFD25D3FDC9C27106E /* Pods */,
+				E3CDBACF759B32129AC52982 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +133,14 @@
 		B81A80021F0EAD7C00039334 /* Sangeet */ = {
 			isa = PBXGroup;
 			children = (
+				B8C6A1A71F1031F90035C036 /* Model */,
+				B8C6A1A81F1031FE0035C036 /* View */,
+				B8C6A1A91F1032040035C036 /* Controller */,
 				B81A80031F0EAD7D00039334 /* AppDelegate.swift */,
-				B81A80051F0EAD7D00039334 /* ViewController.swift */,
 				B81A80071F0EAD7D00039334 /* Main.storyboard */,
 				B81A800A1F0EAD7D00039334 /* Assets.xcassets */,
 				B81A800C1F0EAD7D00039334 /* LaunchScreen.storyboard */,
+				B8C6A1A11F1025BB0035C036 /* GoogleService-Info.plist */,
 				B81A800F1F0EAD7D00039334 /* Info.plist */,
 			);
 			path = Sangeet;
@@ -125,6 +164,40 @@
 			path = SangeetUITests;
 			sourceTree = "<group>";
 		};
+		B8C6A1A71F1031F90035C036 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B8C6A1A81F1031FE0035C036 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B8C6A1AA1F1032630035C036 /* PlaylistCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B8C6A1A91F1032040035C036 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B81A80051F0EAD7D00039334 /* ViewController.swift */,
+				B8C6A1A51F102FC20035C036 /* playlistVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E3CDBACF759B32129AC52982 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9E21ED8AE7E43FB67FB4763 /* Pods_Sangeet.framework */,
+				90553660C9CFE29E8DE9EE7E /* Pods_SangeetTests.framework */,
+				BE8093EB377A7D6550A38A28 /* Pods_SangeetUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B81A80281F0EAD8000039334 /* Build configuration list for PBXNativeTarget "Sangeet" */;
 			buildPhases = (
+				262CD2BE4CD3F9F75A59AEDE /* [CP] Check Pods Manifest.lock */,
 				B81A7FFC1F0EAD7B00039334 /* Sources */,
 				B81A7FFD1F0EAD7B00039334 /* Frameworks */,
 				B81A7FFE1F0EAD7B00039334 /* Resources */,
+				54DF42412F63ADE2B38ED7B0 /* [CP] Embed Pods Frameworks */,
+				1A3E904AD7D2737B49742CCC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B81A802B1F0EAD8000039334 /* Build configuration list for PBXNativeTarget "SangeetTests" */;
 			buildPhases = (
+				CCA33EF0FE199388544E062B /* [CP] Check Pods Manifest.lock */,
 				B81A80101F0EAD8000039334 /* Sources */,
 				B81A80111F0EAD8000039334 /* Frameworks */,
 				B81A80121F0EAD8000039334 /* Resources */,
+				F188933ED1FBF8DAEC7F66A0 /* [CP] Embed Pods Frameworks */,
+				2BF2A1D8617BDFE5D3E19E89 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B81A802E1F0EAD8000039334 /* Build configuration list for PBXNativeTarget "SangeetUITests" */;
 			buildPhases = (
+				EE5728F076FE5456888C4C5C /* [CP] Check Pods Manifest.lock */,
 				B81A801B1F0EAD8000039334 /* Sources */,
 				B81A801C1F0EAD8000039334 /* Frameworks */,
 				B81A801D1F0EAD8000039334 /* Resources */,
+				F896943FF5829A04DDB0CDEF /* [CP] Embed Pods Frameworks */,
+				5540F8680AF34318301ACED6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B81A800E1F0EAD7D00039334 /* LaunchScreen.storyboard in Resources */,
+				B8C6A1A21F1025BB0035C036 /* GoogleService-Info.plist in Resources */,
 				B81A800B1F0EAD7D00039334 /* Assets.xcassets in Resources */,
 				B81A80091F0EAD7D00039334 /* Main.storyboard in Resources */,
 			);
@@ -251,13 +334,153 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A3E904AD7D2737B49742CCC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sangeet/Pods-Sangeet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		262CD2BE4CD3F9F75A59AEDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2BF2A1D8617BDFE5D3E19E89 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SangeetTests/Pods-SangeetTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54DF42412F63ADE2B38ED7B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sangeet/Pods-Sangeet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5540F8680AF34318301ACED6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SangeetUITests/Pods-SangeetUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCA33EF0FE199388544E062B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EE5728F076FE5456888C4C5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F188933ED1FBF8DAEC7F66A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SangeetTests/Pods-SangeetTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F896943FF5829A04DDB0CDEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SangeetUITests/Pods-SangeetUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B81A7FFC1F0EAD7B00039334 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B81A80061F0EAD7D00039334 /* ViewController.swift in Sources */,
+				B8C6A1A61F102FC20035C036 /* playlistVC.swift in Sources */,
 				B81A80041F0EAD7D00039334 /* AppDelegate.swift in Sources */,
+				B8C6A1AB1F1032630035C036 /* PlaylistCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +640,7 @@
 		};
 		B81A80291F0EAD8000039334 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31EB94464F73EC4B24E7B458 /* Pods-Sangeet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3986475H8S;
@@ -425,6 +649,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Aashal-Saumya.Sangeet";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -432,6 +657,7 @@
 		};
 		B81A802A1F0EAD8000039334 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C802CCEC5DDA8130DF367676 /* Pods-Sangeet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3986475H8S;
@@ -440,6 +666,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Aashal-Saumya.Sangeet";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -447,6 +674,7 @@
 		};
 		B81A802C1F0EAD8000039334 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A502C1ACDEC7FF4D8A43C30 /* Pods-SangeetTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -463,6 +691,7 @@
 		};
 		B81A802D1F0EAD8000039334 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3120EDE4D1D627F74A98060F /* Pods-SangeetTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -479,6 +708,7 @@
 		};
 		B81A802F1F0EAD8000039334 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4581A6E1926A21814B799796 /* Pods-SangeetUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 3986475H8S;
@@ -494,6 +724,7 @@
 		};
 		B81A80301F0EAD8000039334 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83E3C922F4BFA72D77F22E4F /* Pods-SangeetUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 3986475H8S;
@@ -526,6 +757,7 @@
 				B81A802A1F0EAD8000039334 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B81A802B1F0EAD8000039334 /* Build configuration list for PBXNativeTarget "SangeetTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +766,7 @@
 				B81A802D1F0EAD8000039334 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B81A802E1F0EAD8000039334 /* Build configuration list for PBXNativeTarget "SangeetUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +775,7 @@
 				B81A80301F0EAD8000039334 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
