@@ -11,15 +11,17 @@
 		631C8F7B631D71F3B1744517 /* Pods_SangeetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90553660C9CFE29E8DE9EE7E /* Pods_SangeetTests.framework */; };
 		B3F063B81070A6927741BF2C /* Pods_SangeetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE8093EB377A7D6550A38A28 /* Pods_SangeetUITests.framework */; };
 		B81A80041F0EAD7D00039334 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81A80031F0EAD7D00039334 /* AppDelegate.swift */; };
-		B81A80061F0EAD7D00039334 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81A80051F0EAD7D00039334 /* ViewController.swift */; };
+		B81A80061F0EAD7D00039334 /* PlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81A80051F0EAD7D00039334 /* PlayerVC.swift */; };
 		B81A80091F0EAD7D00039334 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B81A80071F0EAD7D00039334 /* Main.storyboard */; };
-		B81A800B1F0EAD7D00039334 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B81A800A1F0EAD7D00039334 /* Assets.xcassets */; };
 		B81A800E1F0EAD7D00039334 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B81A800C1F0EAD7D00039334 /* LaunchScreen.storyboard */; };
 		B81A80191F0EAD8000039334 /* SangeetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81A80181F0EAD8000039334 /* SangeetTests.swift */; };
 		B81A80241F0EAD8000039334 /* SangeetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81A80231F0EAD8000039334 /* SangeetUITests.swift */; };
+		B8A9D3931F17EF1600A00300 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A9D3921F17EF1600A00300 /* DataService.swift */; };
+		B8A9D3951F17F59200A00300 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A9D3941F17F59200A00300 /* Constants.swift */; };
 		B8C6A1A21F1025BB0035C036 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B8C6A1A11F1025BB0035C036 /* GoogleService-Info.plist */; };
 		B8C6A1A61F102FC20035C036 /* playlistVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C6A1A51F102FC20035C036 /* playlistVC.swift */; };
 		B8C6A1AB1F1032630035C036 /* PlaylistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C6A1AA1F1032630035C036 /* PlaylistCell.swift */; };
+		B8EE402E1F1EC4C500392CBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8A9D3961F17FB7400A00300 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,9 +51,8 @@
 		A9E21ED8AE7E43FB67FB4763 /* Pods_Sangeet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sangeet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B81A80001F0EAD7C00039334 /* Sangeet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sangeet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B81A80031F0EAD7D00039334 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B81A80051F0EAD7D00039334 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B81A80051F0EAD7D00039334 /* PlayerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerVC.swift; sourceTree = "<group>"; };
 		B81A80081F0EAD7D00039334 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B81A800A1F0EAD7D00039334 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B81A800D1F0EAD7D00039334 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B81A800F1F0EAD7D00039334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B81A80141F0EAD8000039334 /* SangeetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SangeetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +61,9 @@
 		B81A801F1F0EAD8000039334 /* SangeetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SangeetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B81A80231F0EAD8000039334 /* SangeetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SangeetUITests.swift; sourceTree = "<group>"; };
 		B81A80251F0EAD8000039334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8A9D3921F17EF1600A00300 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		B8A9D3941F17F59200A00300 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B8A9D3961F17FB7400A00300 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8C6A1A11F1025BB0035C036 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Volumes/VMware Shared Folders/New folder/Music/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B8C6A1A51F102FC20035C036 /* playlistVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playlistVC.swift; sourceTree = "<group>"; };
 		B8C6A1AA1F1032630035C036 /* PlaylistCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistCell.swift; sourceTree = "<group>"; };
@@ -137,8 +141,8 @@
 				B8C6A1A81F1031FE0035C036 /* View */,
 				B8C6A1A91F1032040035C036 /* Controller */,
 				B81A80031F0EAD7D00039334 /* AppDelegate.swift */,
+				B8A9D3961F17FB7400A00300 /* Assets.xcassets */,
 				B81A80071F0EAD7D00039334 /* Main.storyboard */,
-				B81A800A1F0EAD7D00039334 /* Assets.xcassets */,
 				B81A800C1F0EAD7D00039334 /* LaunchScreen.storyboard */,
 				B8C6A1A11F1025BB0035C036 /* GoogleService-Info.plist */,
 				B81A800F1F0EAD7D00039334 /* Info.plist */,
@@ -167,6 +171,8 @@
 		B8C6A1A71F1031F90035C036 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B8A9D3921F17EF1600A00300 /* DataService.swift */,
+				B8A9D3941F17F59200A00300 /* Constants.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -182,7 +188,7 @@
 		B8C6A1A91F1032040035C036 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				B81A80051F0EAD7D00039334 /* ViewController.swift */,
+				B81A80051F0EAD7D00039334 /* PlayerVC.swift */,
 				B8C6A1A51F102FC20035C036 /* playlistVC.swift */,
 			);
 			path = Controller;
@@ -313,7 +319,7 @@
 			files = (
 				B81A800E1F0EAD7D00039334 /* LaunchScreen.storyboard in Resources */,
 				B8C6A1A21F1025BB0035C036 /* GoogleService-Info.plist in Resources */,
-				B81A800B1F0EAD7D00039334 /* Assets.xcassets in Resources */,
+				B8EE402E1F1EC4C500392CBE /* Assets.xcassets in Resources */,
 				B81A80091F0EAD7D00039334 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -477,10 +483,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B81A80061F0EAD7D00039334 /* ViewController.swift in Sources */,
+				B81A80061F0EAD7D00039334 /* PlayerVC.swift in Sources */,
 				B8C6A1A61F102FC20035C036 /* playlistVC.swift in Sources */,
 				B81A80041F0EAD7D00039334 /* AppDelegate.swift in Sources */,
 				B8C6A1AB1F1032630035C036 /* PlaylistCell.swift in Sources */,
+				B8A9D3931F17EF1600A00300 /* DataService.swift in Sources */,
+				B8A9D3951F17F59200A00300 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

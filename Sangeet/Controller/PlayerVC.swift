@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  PlayerVC.swift
 //  Sangeet
 //
 //  Created by Saumya Raval on 7/6/17.
@@ -9,7 +9,7 @@
 import UIKit
 import AVFoundation
 
-class ViewController: UIViewController {
+class PlayerVC: UIViewController {
     
     @IBOutlet weak var playButton: UIButton!
     
@@ -35,10 +35,10 @@ class ViewController: UIViewController {
     @objc func playButtonTapped(sender: AnyObject) {
         if player.rate == 0 {
             player.play()
-            playButton.setImage(UIImage(named: "noun_860208_cc"), for: .normal)
+            playButton.setImage(UIImage(named: "pause copy"), for: .normal)
         } else {
             player.pause()
-            playButton.setImage(UIImage(named: "noun_860179_cc"), for: .normal)
+            playButton.setImage(UIImage(named: "play_hollow copy"), for: .normal)
         }
     }
     
